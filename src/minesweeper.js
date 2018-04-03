@@ -33,7 +33,6 @@ class Board {
     }
 
     flipTile(rowIndex, columnIndex) {
-        this._numberOfTiles--;
         if (this._playerBoard[rowIndex][columnIndex] !== ' ') {
             console.log('This tile has already been flipped!');
             return;
@@ -42,6 +41,7 @@ class Board {
             return;
         } else {
             this._playerBoard[rowIndex][columnIndex] = this.getNumberOfNeighborBombs(rowIndex, columnIndex);
+            this._numberOfTiles--;
             return;
         }
     }
