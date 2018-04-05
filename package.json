@@ -1,0 +1,27 @@
+{
+  "name": "mine",
+  "version": "1.0.0",
+  "description": "Minesweeper game",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ge8/mine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ge8/mine/issues"
+  },
+  "homepage": "https://github.com/ge8/mine#readme",
+  "dependencies": {
+    "npm": "^5.8.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
